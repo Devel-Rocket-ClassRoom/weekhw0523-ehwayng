@@ -1,12 +1,38 @@
-// ClassTest.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+// Unreal10th_Helloworld.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
 #include <iostream>
+#include <time.h>
+//#include "Day0521_2.h"
+//#include "0521Practice_1.h"
+//#include "0521Practice_2.h"
+//#include "Day0522.h"
+#include "0524_Homework.h"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	unsigned int Seed = (unsigned int)time(0);
+	Seed = 0;
+	srand(Seed);
+
+	//Homework02_Run();
+	//printf("\n");
+	//Homework03_Run();
+	//printf("\n");
+	//Homework04_Run();
+	//printf("\n");
+	Homework05_Run();
+	printf("\n");
+
+
+
 }
+
+
+
+
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
